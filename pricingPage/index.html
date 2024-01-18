@@ -6,39 +6,104 @@
     <title>pricingpage</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
+  <body class="p-4 m-4">
     <div>
       <h2
-        class="capitalize text-3xl text-black font-bold text-center tracking-wide p-2"
+        class="capitalize text-4xl text-black font-bold text-center tracking-wide p-2"
       >
         Simple plan for everything
       </h2>
-      <p class="text-center text-sm text-gray-600">
+      <p class="text-center text-gray-600 text-base">
         Find the best plan and the best price right for you
       </p>
     </div>
-    <div class="flex md:flex-row flex-col items-center justify-center gap-6 mt-20">
-      <div class="p-6 border border-gray-400 rounded-md hover:shadow-lg hover:shadow-yellow-300">
-        <div class="mb-4 leading-4">
-          <p class="text-slate-800 text-2xl font-bold">Starter</p>
-          <p class="text-gray-600 text-base -ins">For daily use</p>
+    <div class="flex md:flex-row flex-col items-center md:items-start justify-evenly gap-6 mt-20">
+      <!-- Card-1 -->
+      <div class=" flex-1 h-full p-6 w-80 border border-gray-300 border-opacity-80 rounded-xl hover:shadow-lg hover:shadow-orange-500">
+        <div class=" leading-4">
+          <p class="text-blue-800 text-2xl font-bold">Starter</p>
+          <p class="text-gray-600 text-base">For daily use</p>
         </div>
-        <h3 class="text-2xl text-yellow-400 font-bold">Free</h3>
-        <ul class="mt-4 leading-7">
+        <h3 class="text-[52px] text-orange-500 font-bold my-4">Free</h3>
+        <ul class="space-y-4">
           <li class="flex space-x-4 items-center">
-            <img src="images/check.png" class="h-4 w-4" />
+            <img src="images/check-green.png" class="h-4 w-4" />
             <p class="text-md text-black">Free 10 credits</p>
           </li>
           <li class="flex space-x-4 items-center">
-            <img src="images/check.png" class="h-4 w-4" />
+            <img src="images/check-green.png" class="h-4 w-4" />
             <p class="text-md text-black">24/7 Support</p>
           </li>
           <li class="flex space-x-4 items-center">
-            <img src="images/check.png" class="h-4 w-4" />
+            <img src="images/check-green.png" class="h-4 w-4" />
             <p class="text-md text-black">History Chat</p>
           </li>
         </ul>
-        <button class="w-full hover:bg-yellow-400 text-center text-yellow-400 hover:text-white rounded-r-full rounded-l-full border border-yellow-400 p-3 mt-4">Get Started</button>
+        <button class="w-full hover:bg-orange-500 text-center text-orange-500 hover:text-white rounded-r-full rounded-l-full border border-orange-500 px-3 py-2 my-4">Get Started</button>
+      </div>
+      <!-- Card-2 -->
+      <div class="flex-1 h-full p-6 w-80 border border-gray-300 border-opacity-80 rounded-xl hover:shadow-lg hover:shadow-orange-500">
+        <div class=" leading-4">
+          <p class="text-blue-800 text-2xl font-bold">Monthly Patron</p>
+          <p class="text-gray-600 text-base">Use this plan boom</p>
+        </div>
+        <h3 class="text-[52px] text-orange-500 font-bold my-4">$5</h3>
+        <ul class="space-y-4">
+          <li class="flex space-x-4 items-center">
+            <img src="images/check-green.png" class="h-4 w-4" />
+            <p class="text-md text-black">Free 10 credits</p>
+          </li>
+          <li class="flex space-x-4 items-center">
+            <img src="images/check-green.png" class="h-4 w-4" />
+            <p class="text-md text-black">24/7 Support</p>
+          </li>
+          <li class="flex space-x-4 items-center">
+            <img src="images/check-green.png" class="h-4 w-4" />
+            <p class="text-md text-black">History Chat</p>
+          </li>
+          <li class="flex space-x-4 items-center">
+            <img src="images/check-green.png" class="h-4 w-4" />
+            <p class="text-md text-black">History Chat</p>
+          </li>
+          <li class="flex space-x-4 items-center">
+            <img src="images/check-green.png" class="h-4 w-4" />
+            <p class="text-md text-black">History Chat</p>
+          </li>
+          <li class="flex space-x-4 items-center">
+            <img src="images/check-green.png" class="h-4 w-4" />
+            <p class="text-md text-black">History Chat</p>
+          </li>
+        </ul>
+        <button class="w-full hover:bg-orange-500 text-center text-orange-500 hover:text-white rounded-r-full rounded-l-full border border-orange-500 px-3 py-2 my-4">Get Started</button>
+      </div>
+      <!-- card-3 -->
+      <div class="flex-1 h-full p-6 w-80 border border-gray-300 border-opacity-80 rounded-xl hover:shadow-lg hover:shadow-orange-500">
+        <div class=" leading-4">
+          <p class="text-blue-800 text-2xl font-bold">Donate Anything</p>
+          <p class="text-gray-600 text-base">For daily use</p>
+        </div>
+        <h3 class="text-[52px] text-orange-500 font-bold my-4">$15</h3> 
+        <img src="./images/Group 5.png" class="w-full h-7 my-3">
+        
+        <ul class="space-y-4">
+          <li class="flex space-x-4 items-center">
+            <img src="images/check-green.png" class="h-4 w-4" />
+            <p class="text-md text-black">Includes both plan</p>
+          </li>
+          <li class="flex space-x-4 items-center">
+            <img src="images/check-green.png" class="h-4 w-4" />
+            <p class="text-md text-black">Free 10 credits</p>
+          </li>
+          <li class="flex space-x-4 items-center">
+            <img src="images/check-green.png" class="h-4 w-4" />
+            <p class="text-md text-black">24/7 Support</p>
+          </li>
+          <li class="flex space-x-4 items-center">
+            <img src="images/check-green.png" class="h-4 w-4" />
+            <p class="text-md text-black">History Chat</p>
+          </li>
+        </ul>
+        <button class="w-full hover:bg-orange-500 text-center text-orange-500 hover:text-white rounded-r-full rounded-l-full border border-orange-500 px-3 py-2 my-4">Get Started</button>
       </div>
     </div>
   </body>
