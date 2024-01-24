@@ -1,38 +1,40 @@
 import Image from "next/image";
+import Nav from "@/components/Nav";
+import HeroSection from "@/components/HeroSection";
+import CustomerReviews from "@/components/CustomerReviews";
+import Footer from "@/components/Footer";
+import SpecialOffers from "@/components/SpecialOffers";
+import Services from "@/components/Services";
+import SuperQuality from "@/components/SuperQuality";
+import PopularProducts from "@/components/PopularProducts";
+import Subscribe from "@/components/Subscribe";
 
-// export default function Home() {
-//   return (
-//     <main className="">
-
-//     </main>
-//   );
-// }
 const App =()=>(
   <main className="relative">
-    Nav
+    <Nav/>
     <section className="xl:padding-1 wide:padding-r padding-b">
-      Hero
+      <HeroSection/>
     </section>
     <section className="padding">
-      Popular Products
+      <PopularProducts/>
     </section>
     <section className="padding">
-      SuperQuality
+      <SuperQuality/>
     </section>
     <section className="padding-x py-10">
-      Services
+      <Services/>
     </section>
     <section className="padding">
-      Special Offers
+      <SpecialOffers/>
     </section>
     <section className="padding bg-pale-blue ">
-      Customer Reviews
+      <CustomerReviews/>
     </section>
     <section className="padding-x sm:py-32 py-16 w-full">
-      Subscribe
+      <Subscribe/>
     </section>
     <section className="padding-x padding-t bg-black pb-8">
-      Footer
+      <Footer/>
     </section>
   </main>
 )
