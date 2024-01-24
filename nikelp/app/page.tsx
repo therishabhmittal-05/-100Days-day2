@@ -8,7 +8,6 @@ import Services from "@/components/Services";
 import SuperQuality from "@/components/SuperQuality";
 import PopularProducts from "@/components/PopularProducts";
 import Subscribe from "@/components/Subscribe";
-
 const App =()=>(
   <main className="relative">
     <Nav/>
